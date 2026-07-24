@@ -1,174 +1,62 @@
-# Finora
+## 🚀 Featured Projects
 
-> A modern personal finance dashboard built to make financial tracking simple, visual and intuitive.
+### 💰 Finora — Personal Finance Dashboard
 
-![Finora Dashboard](./src/assets/hero.png)
+A modern personal finance dashboard built with React, designed to help users visualize and manage their financial activity through an intuitive and responsive interface.
 
-## Overview
+🔗 **Live Demo:** https://keltongallego.github.io/finora/
 
-Finora is a modern personal finance dashboard designed to help users manage, track and understand their financial activity from a single interface.
+📂 **Repository:** https://github.com/KeltonGallego/finora
 
-The application provides a clean and responsive experience for managing transactions, monitoring budgets, visualizing financial data and configuring personal preferences.
+#### ✨ Features
 
-This project was built as a full frontend application with a focus on:
+- 📊 Financial dashboard with visual statistics
+- 💰 Income and expense tracking
+- 🧾 Transaction management
+- 📈 Interactive analytics and charts
+- 🗂️ Budget management
+- 🔐 Authentication pages
+- ⚙️ Settings interface
+- 📱 Responsive user interface
+- 🚀 Automated deployment with GitHub Actions
 
-- Clean and maintainable React architecture
-- Reusable components
-- Context-based state management
-- Responsive design
-- Interactive data visualization
-- Modern UI/UX principles
-
----
-
-## Features
-
-### Dashboard
-
-Get an overview of your financial situation with:
-
-- Total balance
-- Income overview
-- Expense overview
-- Recent transactions
-- Financial summaries
-- Interactive charts
-
-### Transaction Management
-
-Manage your financial activity through:
-
-- Add new transactions
-- Edit existing transactions
-- Delete transactions
-- Income and expense tracking
-- Transaction categories
-- Search functionality
-- Type filtering
-- Category filtering
-
-### Budget Management
-
-Create and monitor personal budgets with:
-
-- Custom budget categories
-- Spending progress tracking
-- Remaining budget calculation
-- Budget usage indicators
-- Visual progress bars
-- Over-budget states
-
-### Analytics
-
-Understand your financial habits through:
-
-- Income and expense charts
-- Category-based spending analysis
-- Visual financial data
-- Monthly financial insights
-
-### Authentication
-
-The application includes authentication-related flows such as:
-
-- Login
-- Registration
-- Protected application structure
-- Authentication context management
-
-### Settings
-
-Manage application preferences including:
-
-- Theme preferences
-- Currency settings
-- Notification preferences
-- Data management options
-- Application settings
-
----
-
-## Tech Stack
-
-### Frontend
+#### 🛠️ Technologies
 
 - React
 - JavaScript
 - Vite
-- CSS
-
-### State Management
-
-- React Context API
-- Custom React Hooks
-
-### Data Visualization
-
+- React Router
 - Recharts
-
-### Development Tools
-
-- ESLint
-- Vite
-- Git
-- GitHub
+- Axios
+- Lucide React
+- GitHub Actions
+- GitHub Pages
 
 ---
 
-## Project Structure
+### 📋 Job Application Tracker
 
-```text
-finora/
-│
-├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-│
-├── src/
-│   │
-│   ├── assets/
-│   │   └── hero.png
-│   │
-│   ├── components/
-│   │   ├── AddTransactionModal.jsx
-│   │   ├── ExpenseChart.jsx
-│   │   ├── Header.jsx
-│   │   ├── IncomeExpenseChart.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── StatCard.jsx
-│   │   ├── TransactionItem.jsx
-│   │   └── TransactionList.jsx
-│   │
-│   ├── context/
-│   │   ├── AuthContext.jsx
-│   │   └── FinanceContext.jsx
-│   │
-│   ├── layouts/
-│   │   └── DashboardLayout.jsx
-│   │
-│   ├── pages/
-│   │   ├── Analytics.jsx
-│   │   ├── Budgets.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   ├── Settings.jsx
-│   │   └── Transactions.jsx
-│   │
-│   ├── services/
-│   │   ├── api.js
-│   │   ├── authService.js
-│   │   └── transactionService.js
-│   │
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-│
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-└── README.md
+A web application designed to organize and track job applications through a centralized dashboard.
+
+🔗 **Repository:** https://github.com/KeltonGallego/job-application-tracker
+
+#### ✨ Features
+
+- Application tracking
+- Status management
+- Interview tracking
+- Offer tracking
+- Categories and priorities
+- Advanced filters
+- Analytics dashboard
+- Search functionality
+- Data management
+
+#### 🛠️ Technologies
+
+- JavaScript
+- HTML
+- CSS
+- React
+- Git
+- GitHub
